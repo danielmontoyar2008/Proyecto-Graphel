@@ -8,7 +8,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 10vh;
+    height: 85px;
     border-bottom: 5px solid #1293D3;
     #titulo {
         display: flex;
@@ -44,8 +44,8 @@ header {
     }  
 }
 
-#boletin {
-    height: 10vh;
+.boletin {
+    height: 85px;
     background-color: #24282B;
     align-items: center;
     display: flex;
@@ -66,5 +66,48 @@ header {
             background-color: #E8491D;
             width: 130px;
         }
+    }
+}
+
+#tecnologias {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+    height: 35vh;
+    div {
+        text-align: center;
+        width: 340px;
+    }
+    img {
+        height: 90px;
+    }
+}
+
+footer {
+    background-color: #1293D3;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contenido {
+    height: 60vh;
+    color: white;
+    display: flex ;
+    justify-content: space-evenly;
+    #blanco{
+        background-color: white;
+        color: black;
+    }
+    div {
+        background-color: #24282B;
+    }
+    #nosotros {
+        width: 500px;
+    }
+    aside {
+        width: 300px;
     }
 }
