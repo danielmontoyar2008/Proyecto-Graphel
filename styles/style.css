@@ -27,11 +27,11 @@ header {
     background-image: url("../assets/images/cabecera.jpg");
     background-size: cover;
     background-position: center;
-    height: 45vh;
+    height: 400px;
     justify-content: center;
     align-items: center;
     display: flex;  
-    font-size: 25px;
+    font-size: 3vh;
     div {
         text-align: center;
         width: 100vh;
@@ -40,6 +40,7 @@ header {
         }
         h1 {
             line-height: 2vh;
+            
         }
     }  
 }
@@ -74,7 +75,7 @@ header {
     justify-content: space-evenly;
     align-items: center;
     color: black;
-    height: 35vh;
+    height: 300px;
     div {
         text-align: center;
         width: 340px;
@@ -93,21 +94,32 @@ footer {
 }
 
 #contenido {
-    height: 60vh;
     color: white;
     display: flex ;
     justify-content: space-evenly;
-    #blanco{
-        background-color: white;
+    font-size: 15px;
+    div {
+        padding: 10px;
+    }
+    .gris {
+        background-color: #35424A;
+    }
+    #blanco {
         color: black;
     }
-    div {
-        background-color: #24282B;
-    }
     #nosotros {
-        width: 500px;
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
     aside {
         width: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    img {
+        width: 100%;
     }
 }
